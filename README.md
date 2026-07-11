@@ -1,17 +1,21 @@
 # MerchLab
 
-A Full Stack TypeScript Print-on-Demand (POD) sandbox application built to test Razorpay Sandbox and Qikink Sandbox API integrations before developing the production Vengeance House storefront.
+> A Full Stack TypeScript Print-on-Demand (POD) sandbox application for testing Razorpay Sandbox payments and Qikink Sandbox API before building the production **Vengeance House** storefront.
 
-## Project Goal
+---
 
-MerchLab is being built to:
+## Purpose
+
+MerchLab is built to:
 
 - Learn Full Stack TypeScript
-- Test Better Auth authentication
-- Test Razorpay Sandbox payments
+- Explore Better Auth
+- Test Razorpay Sandbox
 - Test Qikink Sandbox API
-- Build a production-ready architecture
-- Validate the complete purchasing workflow
+- Build a clean production-ready architecture
+- Validate the complete POD purchasing workflow
+
+---
 
 ## Tech Stack
 
@@ -40,15 +44,34 @@ MerchLab is being built to:
 - Razorpay Sandbox
 - Qikink Sandbox API
 
-## Project Structure
+---
+
+## Repository Structure
 
 ```text
 MerchLab/
 │
 ├── MerchLab_Client/
-└── MerchLab_Server/
+├── MerchLab_Server/
+├── README.md
+├── PROJECT_REQUIREMENTS.md
+└── LICENSE
 ```
 
-## Status
+---
 
-🚧 Currently under development.
+## Development Status
+
+🚧 Active Development
+
+Current Phase:
+
+- Project Setup
+- Folder Structure
+- Authentication Planning
+
+---
+
+## Future Project
+
+After validating the complete workflow in MerchLab, the production application will be rebuilt as **Vengeance House** using **Next.js App Router**.
