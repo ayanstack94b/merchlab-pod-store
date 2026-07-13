@@ -1,15 +1,12 @@
-import toast from "react-hot-toast";
+
+import Hero from "../../components/Hero/Hero";
 
 
 const Home = () => {
     return (
         <div>
-            Home
-            <button
-                onClick={() => toast.success("Welcome to MerchLab")}
-            >
-                Test Toast
-            </button>
+            <Hero />
+
         </div>
     );
 };
