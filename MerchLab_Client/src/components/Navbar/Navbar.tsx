@@ -44,7 +44,7 @@ const Navbar = () => {
                     Shop
                 </NavLink>
             </li>
-
+            <NavLink to="/items/add">Add Merch</NavLink>
             <li>
                 <NavLink
                     to="/about"
